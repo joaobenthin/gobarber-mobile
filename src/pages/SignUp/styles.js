@@ -1,5 +1,5 @@
 import { Platform } from 'react-native';
-import { RectButton } from 'react-native-gesture-handler';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 import styled from 'styled-components/native';
 
 import Input from '~/components/Input';
@@ -28,7 +28,7 @@ export const SubmitButton = styled(Button)`
   margin-top: 5px;
 `;
 
-export const SignLink = styled(RectButton)`
+export const SignLink = styled(TouchableOpacity)`
   margin-top: 20px;
 `;
 

@@ -8,9 +8,9 @@ export default function Button({ children, loading, ...rest }) {
   return (
     <Container {...rest}>
       {loading ? (
-        <ActivityIndicator size="small" color="#fff" />
+        <ActivityIndicator size="small" color="#FFF" />
       ) : (
-        <Text> {children} </Text>
+        <Text>{children}</Text>
       )}
     </Container>
   );
